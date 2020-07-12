@@ -59,7 +59,7 @@ jobs:
           git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git
           git clone https://github.com/rosywrt/luci-theme-rosy.git
           git clone https://github.com/awesome-openwrt/luci-app-passwall.git
-          git clone https://github.com/anshi233/Openwrt-BBR.git
+          git clone https://github.com/ntlf9t/luci-app-bbr-mod.git
 
           # sudo mkdir -p -m 777 /mnt/openwrt/bin /mnt/openwrt/build_dir/host /mnt/openwrt/build_dir/hostpkg /mnt/openwrt/dl /mnt/openwrt/feeds /mnt/openwrt/staging_dir
           # ln -s /mnt/openwrt/bin ./bin
@@ -181,7 +181,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
           CONFIG_PACKAGE_luci-app-passwall=y
           CONFIG_PACKAGE_luci-app-usb-printer=y
-          CONFIG_PACKAGE_Openwrt-BBR=y
+          CONFIG_PACKAGE_luci-app-bbr-mod=y
           EOF
 
           # LuCI主题:
